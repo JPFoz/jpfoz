@@ -36,7 +36,7 @@ export default function Terminal({ text, speed }: TerminalConfig){
   return (
     <div className="terminal-container">
       <div className=' text-slate-500 text-sm'> Last login: {now} on ttys000</div>
-      <div className='text-xlg text-slate-400 terminal-item pr-5'>> </div>
+      <div className='text-xlg text-slate-400 terminal-item pr-5'>&gt; </div>
       <div className='terminal-text text-cyan-700 terminal-item'>{terminalText}</div>
       <div className='terminal-cursor terminal-item' id='tc'>&#95;</div>
     </div>
